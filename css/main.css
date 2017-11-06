@@ -1,0 +1,223 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style:none;
+    text-decoration: none;
+}
+input,button,select,textarea{outline:none;}
+
+.center{
+    width: 1024px;
+    height: 768px;
+    background-color: #defc95;
+    margin: 100px auto;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.round{
+    width:950px;
+    height: 500px;
+    /*background-color: #fff;*/
+
+    /*border-radius: 20px;*/
+    background-image:url("../img/background.png");
+    -webkit-background-size:100% 100%;
+    background-size:100% 100%;
+    margin: 50px auto;
+}
+.line{
+    position: relative;
+    left: 70px;
+    top: 40px;
+}
+.pink{
+    float: left;
+    margin-right: 28px;
+    background-color: #ebbbca;
+    width: 20px;
+    height:5px ;
+}
+#cloud{
+    float: left;
+    background-image: url("../img/cloud.png");
+    width: 113px;
+    height: 51px;
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+#cloud2{
+    float: right;
+    position: relative;
+    top: 50px;
+    right: 30px;
+    background-image: url(../img/cloud2.png);
+    width: 155px;
+    height: 61px;
+}
+#im1{
+    width: 720px;
+    height:130px;
+    margin: 0 auto;
+    position: relative;
+    top:130px;
+    padding: 0;
+}
+.grey{
+    background-color: #a19587;
+    width: 5px;
+    height:5px ;
+    float: left;
+    margin-right: 5px;
+}
+#line2{
+    position: relative;
+    top: 148px;
+    left: 116px;
+  }
+#iml2{
+    width: 720px;
+    height:130px;
+    margin: 0 auto;
+    position: relative;
+    top:170px;
+}
+.iniml{
+    float: left;
+    position: absolute;
+    width: 180px;
+    height:130px;
+    background-image: url("../img/sd.png");
+    background-repeat:no-repeat;
+}
+.iniml:hover{
+    transform:translate(0,-10px);
+    -webkit-transform:translate(0,-10px);
+    -moz-transform:translate(0,-10px);
+    -o-transform:translate(0,-10px);
+    -ms-transform:translate(0,-10px);
+}
+.iniml2{
+     float: left;
+     position: absolute;
+     width: 180px;
+     height:130px;
+    background-image: url("../img/ballon.png");
+    background-repeat:no-repeat;
+     left: 180px;
+ }
+.iniml3{
+    float: left;
+    position: absolute;
+    width: 180px;
+    height:130px;
+    background-image: url("../img/sd.png");
+    background-repeat:no-repeat;
+    left: 360px;
+}
+.iniml3:hover{
+    transform:translate(0,-10px);
+    -webkit-transform:translate(0,-10px);
+    -moz-transform:translate(0,-10px);
+    -o-transform:translate(0,-10px);
+    -ms-transform:translate(0,-10px);
+}
+.iniml4{
+    float: left;
+    position: absolute;
+    width: 180px;
+    height:130px;
+    background-image: url("../img/vegetable.png");
+    background-repeat:no-repeat;
+    left: 540px;
+}
+.greenfont{
+    position: relative;
+    top: 40px;
+    left: 30px;
+    font-size: larger;
+    color: #71bb41;
+}
+.greenfont:hover{
+    color: #29bb00;
+    cursor: pointer;
+}
+
+
+.inimlt{
+    float: left;
+    position: absolute;
+    width: 180px;
+    height:130px;
+    background-image: url("../img/strawberry.png");
+    background-repeat:no-repeat;
+}
+.inimlt2{
+     float: left;
+     position: absolute;
+     width: 180px;
+     height:130px;
+     background-image: url("../img/bubble2.png");
+     background-repeat:no-repeat;
+    left: 180px;
+ }
+.inimlt2:hover{
+    transform:translate(0,10px);
+    -webkit-transform:translate(0,10px);
+    -moz-transform:translate(0,10px);
+    -o-transform:translate(0,10px);
+    -ms-transform:translate(0,10px);
+}
+.inimlt3{
+    float: left;
+    position: absolute;
+    width: 180px;
+    height:130px;
+    background-image: url("../img/panda.png");
+    background-repeat:no-repeat;
+    left: 360px;
+}
+.inimlt4{
+    float: left;
+    position: absolute;
+    width: 180px;
+    height:130px;
+    background-image: url("../img/bubble2.png");
+    background-repeat:no-repeat;
+    left: 540px;
+}
+.inimlt4:hover{
+    transform:translate(0,10px);
+    -webkit-transform:translate(0,10px);
+    -moz-transform:translate(0,10px);
+    -o-transform:translate(0,10px);
+    -ms-transform:translate(0,10px);
+}
+#bleft{
+    width: 241px;
+    height: 178px;
+    background-image: url("../img/ballons.png");
+    position: relative;
+    top: 170px;
+}
+#bright{
+    width: 241px;
+    height: 178px;
+    background-image: url("../img/ballons.png");
+    position: relative;
+    top: -8px;
+    float: right;
+}
+#back{
+    cursor: pointer;
+    position: absolute;
+    bottom: -16px;
+    font-size:20px;
+    width:194px;
+    height: 36px;
+    background-color: #a5d69b;
+    border-radius: 40px;
+    color: white;
+    left: 32px;
+}
