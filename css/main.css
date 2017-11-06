@@ -106,6 +106,8 @@ input,button,select,textarea{outline:none;}
     background-image: url("../img/ballon.png");
     background-repeat:no-repeat;
      left: 180px;
+    animation:Updown 1s infinite alternate;
+    -webkit-animation:Updown 1s alternate infinite;
  }
 .iniml3{
     float: left;
@@ -131,6 +133,8 @@ input,button,select,textarea{outline:none;}
     background-image: url("../img/vegetable.png");
     background-repeat:no-repeat;
     left: 540px;
+    animation:Updown 1s infinite alternate;
+    -webkit-animation:Updown 1s alternate infinite;
 }
 .greenfont{
     position: relative;
@@ -144,6 +148,22 @@ input,button,select,textarea{outline:none;}
     cursor: pointer;
 }
 
+@keyframes Updown{
+    from{margin-top:30px;}
+    to{margin-top:10px;}
+}
+@-webkit-keyframes Updown{
+    from{margin-top:30px;}
+    to{margin-top:10px;}
+}
+@-moz-keyframes Updown{
+    from{margin-top:30px;}
+    to{margin-top:10px;}
+}
+@-o-keyframes Updown{
+    from{margin-top:30px;}
+    to{margin-top:10px;}
+}
 
 .inimlt{
     float: left;
@@ -152,7 +172,10 @@ input,button,select,textarea{outline:none;}
     height:130px;
     background-image: url("../img/strawberry.png");
     background-repeat:no-repeat;
+    animation:Updown 1s infinite alternate;
+    -webkit-animation:Updown 1s alternate infinite;
 }
+
 .inimlt2{
      float: left;
      position: absolute;
@@ -177,6 +200,8 @@ input,button,select,textarea{outline:none;}
     background-image: url("../img/panda.png");
     background-repeat:no-repeat;
     left: 360px;
+    animation:Updown 1s infinite alternate;
+    -webkit-animation:Updown 1s alternate infinite;
 }
 .inimlt4{
     float: left;
@@ -201,6 +226,29 @@ input,button,select,textarea{outline:none;}
     position: relative;
     top: 170px;
 }
+#bleft:hover{
+    -webkit-animation:swinging 2s ease-in-out 0s infinite;
+    -moz-animation:swinging 2s ease-in-out 0s infinite;
+    animation:swinging 2s ease-in-out 0s infinite;
+    -webkit-transform-origin: 50% 100%;
+    -moz-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+}
+@-webkit-keyframes swinging{
+    0% { -webkit-transform: rotate(10deg); }
+    50% { -webkit-transform: rotate(-10deg); }
+    100% { -webkit-transform: rotate(10deg); }
+}
+@-moz-keyframes swinging{
+    0% { -webkit-transform: rotate(10deg); }
+    50% { -webkit-transform: rotate(-10deg); }
+    100% { -webkit-transform: rotate(10deg); }
+}
+@-o-keyframes swinging{
+    0% { -webkit-transform: rotate(10deg); }
+    50% { -webkit-transform: rotate(-10deg); }
+    100% { -webkit-transform: rotate(10deg); }
+}
 #bright{
     width: 241px;
     height: 178px;
@@ -208,6 +256,14 @@ input,button,select,textarea{outline:none;}
     position: relative;
     top: -8px;
     float: right;
+}
+#bright:hover{
+    -webkit-animation:swinging 2s ease-in-out 0s infinite;
+    -moz-animation:swinging 2s ease-in-out 0s infinite;
+    animation:swinging 2s ease-in-out 0s infinite;
+    -webkit-transform-origin: 50% 100%;
+    -moz-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
 }
 #back{
     cursor: pointer;

@@ -1,0 +1,23 @@
+#Englishuse{
+    width: 480px;
+    height: 380px;
+    background-color: antiquewhite;
+    position: relative;
+    top: 92px;
+    left: 230px;
+}
+#bleft2{
+    width: 241px;
+    height: 178px;
+    background-image: url("../img/ballons.png");
+    position: relative;
+    top: 60px;
+}
+#bright2{
+    width: 241px;
+    height: 178px;
+    background-image: url("../img/ballons.png");
+    position: relative;
+    top: -128px;
+    float: right;
+}
